@@ -1,0 +1,8 @@
+
+public class StaticAndFinalKeyWords {
+
+	public StaticAndFinalKeyWords() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

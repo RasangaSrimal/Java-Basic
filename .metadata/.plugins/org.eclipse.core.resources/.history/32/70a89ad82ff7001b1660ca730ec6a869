@@ -1,0 +1,40 @@
+
+class Student {
+	
+	public String name; //non-static variables
+	public static String studentClass; //static variables, class variables
+	
+	//return type - void 
+	public void studentName() {
+		System.out.println(name);
+	}
+	
+	public static void classInfo() {
+		System.out.println("Java-" + studentClass + "\n");
+		
+	}
+}
+
+public class StaticAndFinalKeyWords {
+
+	public static void main(String[] args) {
+		
+		Student.studentClass = "Java project";
+		System.out.println(Student.studentClass);
+		
+		Student.classInfo();
+		
+		Student student1 = new Student();
+		Student student2 = new Student();
+		
+		student1.name = "Bob";
+		student2.name = "Jane";
+		
+		System.out.println(student1.name);
+		System.out.println(student2.name + "\n");
+		
+		student1.studentName();
+		student2.studentName();
+	}
+
+}

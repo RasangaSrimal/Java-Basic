@@ -1,0 +1,12 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		int number = 10; //primetive type
+		int[] numbers = new int[5]; //reference type
+		
+		System.out.println("numbers[0]");
+	}
+
+}

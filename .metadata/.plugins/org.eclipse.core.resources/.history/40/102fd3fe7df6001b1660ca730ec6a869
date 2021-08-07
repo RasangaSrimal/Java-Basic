@@ -1,0 +1,19 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		int number = 10; //primetive type
+		int[] numbers = new int[5]; //reference type
+		
+		System.out.println(numbers[0]);
+		
+		numbers[0] = 4;
+		numbers[1] = 15;
+		numbers[2] = 54;
+		
+		System.out.println(numbers[0]);
+
+	}
+
+}

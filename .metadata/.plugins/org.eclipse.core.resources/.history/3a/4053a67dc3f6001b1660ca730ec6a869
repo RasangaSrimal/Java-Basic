@@ -1,0 +1,23 @@
+//define new class
+class Methods {
+	
+	//define variables
+	String animal;
+	int value;
+	
+	//add a method
+	void run() {
+		System.out.println("Running");
+		System.out.println("My " + animal + " is " + value + " years old.");
+	}
+}
+
+public class ClassesMethodsObjects {
+	public static void main(String[] args) {
+		
+		Methods name = new Methods(); //create a new object (name)
+		name.animal = "cat"; // give values to initialised 
+		name.value = 5;
+		name.run(); //call the method
+	}
+}

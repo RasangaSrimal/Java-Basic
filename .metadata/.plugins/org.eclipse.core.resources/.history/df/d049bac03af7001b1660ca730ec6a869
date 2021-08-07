@@ -1,0 +1,8 @@
+ 
+public class Car extends Factory {
+
+}
+
+// Car is a sub-class of Factory
+// Factory is the super-class of Car 
+// Now Car class inherits everything of Factory class

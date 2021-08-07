@@ -1,0 +1,26 @@
+
+class Student {
+	
+	public String name;
+	public static String studentClass; //static variables, class variables
+	
+}
+
+public class StaticAndFinalKeyWords {
+
+	public static void main(String[] args) {
+		
+		Student.studentClass = "Java project";
+		System.out.println(Student.studentClass);
+		
+		Student student1 = new Student();
+		Student student2 = new Student();
+		
+		student1.name = "Bob";
+		student2.name = "Jane";
+		
+		System.out.println(student1.name);
+		System.out.println(student2.name);
+	}
+
+}

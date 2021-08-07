@@ -1,0 +1,18 @@
+
+class Program {
+	
+	public Program() {
+		System.out.println("First Constructor");
+	}
+	
+}
+
+public class Constructors {
+
+	public static void main(String[] args) {
+		
+		Program myProgram = new Program();
+		new Program();
+	}
+
+}
